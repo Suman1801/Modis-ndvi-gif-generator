@@ -5,11 +5,11 @@ var col = ee.ImageCollection('MODIS/006/MOD13A2').select('NDVI');
 
 // Define clipping and region boundary geometries
 // Define a mask to clip the NDVI data by.
-var mask = geometry
+var mask = AOI
   ;
 
 // Define the regional bounds of animation frames.
-var region = geometry;
+var region = AOI;
 
 // Group images by composite date
 col = col.map(function(img) {
