@@ -2,17 +2,17 @@
 
 This project uses **Google Earth Engine** to generate an animated GIF of **Normalized Difference Vegetation Index (NDVI)** using **MODIS MOD13Q1** satellite imagery.
 
-> ✅ Developed by [Suman Bhowmick](https://github.com/Suman1801)
+>  Developed by [Suman Bhowmick](https://github.com/Suman1801)
 
 ---
 
-## 📌 Description
+##  Description
 
 This script processes 16-day NDVI composites to visualize vegetation changes over time in a selected region of interest. The output is an animated GIF showing temporal NDVI dynamics.
 
 ---
 
-## 🛰️ Dataset Used
+##  Dataset Used
 
 - **Product**: MODIS MOD13Q1 (NDVI)
 - **Spatial Resolution**: 250 meters
@@ -21,7 +21,7 @@ This script processes 16-day NDVI composites to visualize vegetation changes ove
 
 ---
 
-## 🧪 Script Features
+##  Script Features
 
 - Imports MOD13Q1 collection
 - Filters by date and region
@@ -32,7 +32,7 @@ This script processes 16-day NDVI composites to visualize vegetation changes ove
 
 ---
 
-## 🧭 Parameters You Can Modify
+##  Parameters You Can Modify
 
 - `startDate` and `endDate`
 - `region` (geometry)
