@@ -5,7 +5,7 @@ var col = ee.ImageCollection('MODIS/006/MOD13A2').select('NDVI');
 
 // Define clipping and region boundary geometries
 // Define a mask to clip the NDVI data by.
-var mask = ee.FeatureCollection('USDOS/LSIB_SIMPLE/2017')
+var mask = geometry
   ;
 
 // Define the regional bounds of animation frames.
